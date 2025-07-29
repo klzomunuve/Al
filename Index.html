@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alfred Kalonzo Munuve - Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e1f5fe, #f3e5f5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 30px 40px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+      max-width: 900px;
+      width: 100%;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #6a1b9a;
+      margin-bottom: 15px;
+      box-shadow: 0 0 15px rgba(106, 27, 154, 0.5);
+    }
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 28px;
+      color: #6a1b9a;
+      margin-bottom: 5px;
+    }
+    .header p {
+      font-size: 16px;
+      color: #555;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      gap: 30px;
+    }
+    .col {
+      flex: 1;
+      min-width: 250px;
+    }
+    .info-item {
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+    .info-item strong {
+      color: #00796b;
+    }
+    a {
+      color: #d81b60;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <img class="profile-img" src="Alfred.jpg" alt="Alfred Kalonzo">
+      <h1>Alfred Kalonzo Munuve</h1>
+      <p>Student | Tech Enthusiast | Coder</p>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="info-item"><strong>Age:</strong> 20</div>
+        <div class="info-item"><strong>Tribe:</strong> Kamba</div>
+        <div class="info-item"><strong>Nationality:</strong> Kenyan 🇰🇪</div>
+        <div class="info-item"><strong>Net Worth:</strong> Ksh 100</div>
+        <div class="info-item"><strong>WhatsApp:</strong> <a href="https://wa.me/254759729937">+254 759 729 937</a></div>
+        <div class="info-item"><strong>Facebook:</strong> <a href="https://www.facebook.com/alfred.klnzo" target="_blank">facebook.com/alfred.klnzo</a></div>
+      </div>
+      <div class="col">
+        <div class="info-item"><strong>Study Level:</strong> Bachelor of Science & Social Sciences</div>
+        <div class="info-item"><strong>University:</strong> University of Embu</div>
+        <div class="info-item"><strong>Courses:</strong> Computer & Physics (Education Science)</div>
+        <div class="info-item"><strong>Subjects:</strong> Physics, Computer Science, Teaching Methodologies</div>
+        <div class="info-item"><strong>Hobbies:</strong> Coding, Ethical Hacking, Building Systems, Creating 'Alfred Academy'</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2025 Alfred Kalonzo Munuve
+    </div>
+  </div>
+</body>
+</html>
