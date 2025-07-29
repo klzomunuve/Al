@@ -1,1 +1,7 @@
-templates/ ├── login.html ├── dashboard.html ├── units.html ├── receipt.html ├── results.html ├── admin_login.html └── admin_dashboard.html
+login.html
+dashboard.html
+units.html
+receipt.html
+results.html
+admin_login.html
+admin_dashboard.html
